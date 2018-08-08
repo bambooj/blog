@@ -7,9 +7,6 @@
   </span>
   <span class="author" itemprop="copyrightHolder">{{ config.author }}</span>
 </div>
-<div>
-  <a class="theme-link" href="http://www.miitbeian.gov.cn" target="_blank">备案：粤ICP备17059043号</a>
-</div>
 {% if theme.copyright %}
 <div class="powered-by">
   {{ __('footer.powered', '<a class="theme-link" href="https://hexo.io">Hexo</a>') }}

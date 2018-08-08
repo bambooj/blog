@@ -2,6 +2,7 @@
 title: 将MongoDB数据加载到Elasticsearch
 date: 2018-08-03 22:32:52
 tags: MongoDB,Docker,Elasticsearch
+comments: true
 ---
 
 ### 一、前言
@@ -38,7 +39,7 @@ sub   4096R/F273FCD8 2017-02-22
 这里我们就直接使用docker仓库的mongodb镜像。
 
 #### 3.1 查询mongodb镜像
-hexin@hexin-OptiPlex-3046:~/test/es$ docker search mongo
+jogen@mymachine:~/test/es$ docker search mongo
 NAME                                DESCRIPTION                                     STARS               OFFICIAL            AUTOMATED
 mongo                               MongoDB document databases provide high avai…   4773                [OK]                
 mongo-express                       Web-based MongoDB admin interface, written w…   274                 [OK]                
